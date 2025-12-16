@@ -18,7 +18,7 @@ The system is designed to be:
 3. Raw payload is gzip-compressed
 4. Data is stored in S3 using a time-partitioned layout
 
-´s3://db-api-responses/{eva}/{datatype}/year/month/day/hour/timestamp.xml.gz´
+`s3://db-api-responses/{eva}/{datatype}/year/month/day/hour/timestamp.xml.gz`
 
 
 ## Storage Strategy
