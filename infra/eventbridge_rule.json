@@ -1,0 +1,4 @@
+{
+  "ScheduleExpression": "rate(2 minutes)",
+  "State": "ENABLED"
+}
