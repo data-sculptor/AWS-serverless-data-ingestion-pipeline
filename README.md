@@ -59,3 +59,11 @@ Total: well under $1/month.
 - Downstream processing with Athena or Glue
 - Infrastructure as Code (Terraform / SAM)
 
+
+## 🛠️ How to Deploy
+
+1. Create an S3 bucket
+2. Set up Lambda function (upload code, add env vars)
+3. Give Lambda an IAM role with the permission in infra folder
+4. Create an EventBridge rule to trigger Lambda on schedule 
+
